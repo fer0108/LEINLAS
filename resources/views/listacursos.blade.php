@@ -1,5 +1,7 @@
-<table class="table table-hover">
-    <thead>
+@extends('layouts.estilos')
+@section('content')
+<table class="table table-hover table-bordered">
+    <thead class="table-dark">
         <tr>
         <th>LECCION</th>
         <th>IMAGEN</th>
@@ -46,3 +48,4 @@
         @endforeach
     </tbody>
 </table>
+@endsection

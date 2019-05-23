@@ -1,9 +1,15 @@
 
-
-
+@extends('layouts.estilos')
+@section('content')
+<div class="container">
+<div class="row">
+  <div class="col-md-3">
+    <h1 class="display-5 text-center">Audios para agregar</h1>
+  </div>
+  <div class="col-md-6">
+  <h1 class="text-center">PERFILES</h1>
 <form action="/cursos" method="POST" role="form">
     @csrf()
-    <legend>PERFILES</legend>
     <div>
     </div>
       @csrf()
@@ -26,6 +32,11 @@
        
 
         <button type="submit" class="btn btn-primary">Guardar</button>
+        <a href="/perfiles/lista" class="btn btn-success"><i class="fas fa-address-book">Lista</i></a></a>
     </form>
 </div>
-
+<div class="col-md-3"></div>
+@endsection
+</div>
+</div>
+</div>
