@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Leccion extends Model
 {
     protected $table = 'lecciones';
-    public function  cursos()
+    public function  Curso()
 
     {
             return $this->hasMany(Curso::Class);

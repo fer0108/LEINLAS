@@ -16,7 +16,7 @@ class Curso extends Model
 
     }
 
-    public function imagenes()
+    public function Imagen()
     {
 
         return $this-> belongsTo(imagen::class);

@@ -27,7 +27,7 @@
       </div><br>      <div class="inner cover">
         <h1 class="cover-heading">kaisa miskitu bila lantakaia</h1>
         <p class="lead cover-copy">Aprendamos la lengua Miskitu.</p>
-        <p <button onclick="location.href='cursos/listacursos'">Cursos</button> </p>
+        <p <button onclick="location.href='login'">Cursos</button> </p>
       </div>
       <div class="mastfoot">
         
